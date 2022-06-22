@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const AddCategory = ({ onNewCategory }) => {
-  const [inputValue, setInputValue] = useState("Rias gremory");
+  const [inputValue, setInputValue] = useState("");
 
   const onInputChange = ({ target }) => {
     setInputValue(target.value);
